@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-position: center;
+    background-color: #ABEBC6;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'consolas';
+  }
+  .form-register {
+    width: 400px;
+    background-color: #AED6F1;
+    padding: 20px 20px 10px 15px ;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 40px;
+    font-family: 'calibri';
+    color: #000;
+    box-shadow: 7px 6px 20px -10px #10345B;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #52E391;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 18px;  
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+  }
+  
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 15px;
+    padding: -30vh;
+  }
+  
+  .form-register a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #02F51C;
+    border: none;
+    padding: 10px 133px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  .form-register p .aparte{
+    color: #000;
+  }
+  
+  .btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 10px 100px;
+    color: #000;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  .btn-neon{
+    background: #9CCBBF;
+    box-shadow: 0 0 10px #93BEB3, 0 0 40px #93BEB3;
+    transition-delay: 1s;
+  }
+  
+  .aparte{
+   margin: 115px; 
+  }
+  
+  .form_mensaje-error{
+    font-size:12px;
+    margin-bottom: 0;
+    display:none;
+    background-color: white;
+    border-color: white;
+    margin: 1vh;
+    margin-top: -1vh;
+    border-radius: 5px;
+    padding-top: 1vh;
+  }
+  
+  .form_mensaje-error-activo{
+    display:block;
+  } 
+
+  @media (max-width: 720px){
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-position: center;
+      background-color: #19F072;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family:'consolas';
+    }
+    .form-register {
+      width: 300px;
+      background-color: #A1ECD8;
+      padding: 10px 20px 0px 15px ;
+      margin: auto;
+      margin-top: 8px;
+      border-radius: 40px;
+      font-family: 'calibri';
+      color: #000;
+      box-shadow: 7px 6px 20px -10px #10345B;
+    }
+    
+    .form-register h4 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    
+    .controls {
+      width: 100%;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #52E391;
+      outline: none;
+      font-family: 'calibri';
+      font-size: 18px;
+      text-align: center;
+      color: white;
+      border-radius: 30px;
+      color: black;
+    }
+    
+    
+    .form-register p {
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 15px;
+      padding: -30vh;
+    }
+    
+    .form-register a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    .form-register a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+    
+    .form-register .botons {
+      width: 100%;
+      background: #02F51C;
+      border: none;
+      padding: 10px 133px;
+      color: black;
+      margin: 16px 0;
+      font-size: 16px;
+    }
+    
+    .form-register p .aparte{
+      color: #000;
+    }
+    
+    .btn-neon{
+      position: relative;
+      display: inline-block;
+      padding: 10px 70+ypx;
+      color: #000;
+      letter-spacing: 4px;
+      text-decoration: none;
+      font-size: 1px;
+      overflow: hidden;
+      transition: 0.2s;
+      border-radius: 30px;
+      font-size: 20px;
+    }
+    .btn-neon{
+      background: #9CCBBF;
+      box-shadow: 0 0 10px #93BEB3, 0 0 40px #93BEB3;
+      transition-delay: 1s;
+    }
+    
+    .aparte{
+     margin: 115px; 
+    }
+    
+    .form_mensaje-error{
+      font-size:12px;
+      margin-bottom: 0;
+      display:none;
+      background-color: white;
+      border-color: white;
+      margin: 1vh;
+      margin-top: -1vh;
+      border-radius: 5px;
+      padding-top: 1vh;
+    }
+    
+    .form_mensaje-error-activo{
+      display:block;
+    } 
+      
+  }

@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.cronograma{
+    display: block;
+}
+
+.estudiantes{
+    display: none;
+}
+
+.prestamo{
+    display: none;
+}
+
+.herramientas{
+    display: none;
+}
+
+.actividades{
+    display: none;
+}
+
+.form_reg{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+.form_reg label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.form_reg input[type="text"],
+.form_reg input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+.form_reg input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+.form_reg input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+.zona{
+    display: none;
+    padding: 25px;
+}
+
+
+.cosa{
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+    margin-top: 10px;
+}
+
+.modal-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal{
+    background-color: #fff;
+    width: 500px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.no {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .tdt, .thd {
+    border: 1px solid #dddddd;
+    padding: 8px 30px;
+    text-align: center;
+  }
+  
+  .trr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  
+.sinco {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .tdi, .thi {
+    border: 1px solid #dddddd;
+    padding: 8px 10px;
+    text-align: center;
+  }
+  
+  .tri:nth-child(even) {
+    background-color: #dddddd;
+  }
+#botton{
+
+        background-color: #47a386;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        font-size: 14px;
+        padding: 10px 25px;
+        margin-top: 10px;
+
+}
+
+#open{
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+
+}
+
+
+.form-register {
+    width: 400px;
+    background-color: #AED6F1;
+    padding: 20px 20px 10px 15px ;
+    margin: auto;
+
+    border-radius: 40px;
+    font-family: 'calibri';
+    color: #000;
+    box-shadow: 7px 6px 20px -10px #10345B;
+  }
+  
+  .form-register h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 160px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #52E391;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 18px;  
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+  }
+  
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 15px;
+    padding: -30vh;
+  }
+  
+  .form-register a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #02F51C;
+    border: none;
+    padding: 10px 133px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  .form-register p .aparte{
+    color: #000;
+  }
+  
+  .btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 10px 100px;
+    color: #000;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  .btn-neon{
+    background: #9CCBBF;
+    box-shadow: 0 0 10px #93BEB3, 0 0 40px #93BEB3;
+    transition-delay: 1s;
+  }
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.navigation1{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.navigation1.active{
+    width: 80px;
+}
+
+
+.navigation1 ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation1 ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.navigation1 ul li:hover,
+.navigation1 ul li.hovered
+{
+    background: var(--white);
+}
+
+.navigation1 ul li:nth-child(1){
+    margin-bottom: 40px;
+    pointer-events: none;
+}
+
+.navigation1 ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navigation1 ul li:hover a,
+.navigation1 ul li.hovered a
+{
+    color: var(--blue);
+}
+
+.navigation1 ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.navigation1 ul li a .icon ion-icon{
+    font-size: 1.75em;
+}
+
+.navigation1 ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+/* curve outside */
+
+.navigation1 ul li:hover a::before,
+.navigation1 ul li.hovered a::before
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -84%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 10px var(--white);
+    pointer-events: none;
+}
+.navigation1 ul li:hover a::after,
+.navigation1 ul li.hovered a::after
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -84%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 35px -35px 0 10px var(--white);
+    pointer-events: none;
+}
+
+/*main*/
+
+.main{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.main.active{
+    width: calc(100% - 80px);
+    left: 80px;
+}
+
+.topbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.search{
+    position: relative;
+    width: 400px;
+    margin: 0 10px;
+}
+
+.search label{
+    position: relative;
+    width: 100%;
+}
+
+.search label input{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    padding-left: 35px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid var(--black2);
+    margin: 11px;
+}
+.search label ion-icon{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 1.2em;
+}
+
+.user{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.user img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+
+a{
+    width: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.cardBox .card{
+    position: relative;
+    background: var(--width);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    margin: 0 400px;
+    text-decoration: none;
+}
+
+.cardBox .card .numbers{
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: var(--blue);
+}
+
+.cardBox .card .cardName{
+    color: var(--black2);
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.cardBox .card .iconBx{
+    font-size: 3.5em;
+    color: var(--black2);
+}
+
+.cardBox .card:hover{
+    background: var(--blue);
+}
+
+.cardBox .card:hover .numbers,
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBx{
+    color: var(--white);
+}
+
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cardHeader h2{
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.btn{
+    position: relative;
+    padding: 5px 10px;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+}
+
+.status.dilivered{
+    padding: 2px 4px;
+    background: #8de02c;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.status.pending{
+    padding: 2px 4px;
+    background: #f9ca3f;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.status.return{
+    padding: 2px 4px;
+    background: #f00;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.status.inprogress{
+    padding: 2px 4px;
+    background: #1795ce;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.recentCustomers{
+    position: relative;
+    min-height: 400px;
+    background: var(--white);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    width: 80%;
+    margin-left:2vh;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: url(../IMG/croquis.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+}
+
+
+.boton1{
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+    border: none;
+    width: 50%;
+    height: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;    
+    float: left;
+    color: transparent;
+}
+
+.boton2{
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+    border: none;
+    width: 50%;
+    height: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    color: transparent;
+}
+
+.boton1:hover{
+    background-color: transparent;
+    color: #1b5206;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #1b5206;
+    font-size: 20px;
+}
+
+.boton2:hover{
+    background-color: transparent;
+    color: #1b5206;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #1b5206;
+    font-size: 20px;
+}
+
+.desaparese{
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    padding: 0px;
+    border-radius: 4px;
+    border: 1px solid #52E391;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 18px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 30px;
+    color: var(--black1);
+    margin-top: 10px;
+    margin-right: 50px;
+    
+}
+
+@media (max-width: 991px)
+{
+    .navigation1{
+        left: -300px;
+    }
+    .navigation1.active{
+        width: 302px;
+        left: 0px;
+    }
+    .main{
+        width: 100%;
+        left: 0;
+    }
+    .main.active{
+        left: 300px;
+    }
+    .cardBox{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px)
+{
+    .details{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .recentOrders{
+        overflow-x: auto;
+    }
+    .status.inprogress{
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .cardBox{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cardHeader h2{
+        font-size: 20px;
+    }
+    .user{
+        min-width: 40px;
+    }
+    .navigation1{
+        width: 62%;
+        height: -100%;
+        z-index: 1000;
+    }
+    .navigation1.active{
+        width: 425px;
+        left: 0;
+    }
+    .toggle{
+        z-index: 10001;
+    }
+    .main.active .toggle{
+        position: fixed;
+        left: initial;
+        color: #fff;
+    }
+}

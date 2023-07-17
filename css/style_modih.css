@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --blue: #48E3D4;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+}
+
+body{
+    background-color: #ABEBC6;
+}
+
+.form_reg {
+    width: 400px;
+    background-color: #AED6F1;
+    padding: 20px 20px 10px 15px ;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 40px;
+    font-family: 'calibri';
+    color: #000;
+    box-shadow: 7px 6px 20px -10px #10345B;
+  }
+
+  .control {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #52E391;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .form_reg h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .form_reg p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 15px;
+    padding: -30vh;
+  }
+  
+  .form_reg a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .form_reg a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form_reg .botons {
+    width: 100%;
+    background: #02F51C;
+    border: none;
+    padding: 10px 133px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .form_reg p .aparte{
+    color: #000;
+  }
+  .btn-neon{
+    background: #9CCBBF;
+    box-shadow: 0 0 10px #93BEB3, 0 0 40px #93BEB3;
+    transition-delay: 1s;
+  }
+  .btn-neon {
+    position: relative;
+    display: inline-block;
+    padding: 10px 100px;
+    color: #000;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 30px;
+    font-size: 20px;
+}
